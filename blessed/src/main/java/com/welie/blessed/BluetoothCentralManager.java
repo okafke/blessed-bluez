@@ -264,7 +264,7 @@ public class BluetoothCentralManager {
 //                "NoInputNoOutput" and "KeyboardDisplay" which
 //                reflects the input and output capabilities of the
 //                agent.
-            agentManager.registerAgent(agent, "KeyboardOnly");
+            agentManager.registerAgent(agent, "NoInputNoOutput");
             agentManager.requestDefaultAgent(agent);
         }
     }
